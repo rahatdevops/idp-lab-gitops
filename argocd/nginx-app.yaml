@@ -6,7 +6,7 @@ metadata:
   namespace: argocd
 
 spec:
-  project: default
+  project:  platform-dev
 
   source:
     repoURL: https://github.com/rahatdevops/idp-lab-gitops.git
