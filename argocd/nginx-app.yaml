@@ -11,7 +11,10 @@ spec:
   source:
     repoURL: https://github.com/rahatdevops/idp-lab-gitops.git
     targetRevision: main
-    path: apps/nginx
+    path: charts/nginx
+
+    helm:
+      releaseName: nginx
 
   destination:
     server: https://kubernetes.default.svc
