@@ -8,6 +8,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: nginx
     backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-namespace: demo
 
   tags:
     - nginx
