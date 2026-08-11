@@ -2,7 +2,7 @@
 
 ### Overview
 
-NGINX is a Kubernetes application managed by the Internal Developer Platform.
+NGINX is a K8S application managed by the Internal Developer Platform.
 
 Deployment flow:
 
