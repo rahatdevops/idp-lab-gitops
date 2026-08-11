@@ -8,6 +8,7 @@ metadata:
   labels:
     app.kubernetes.io/name: {{ .Chart.Name }}
     app.kubernetes.io/instance: {{ .Release.Name }}
+    backstage.io/kubernetes-id: {{ .Release.Name }}
 
 spec:
   replicas: {{ .Values.replicaCount }}
@@ -22,6 +23,7 @@ spec:
       labels:
         app.kubernetes.io/name: {{ .Chart.Name }}
         app.kubernetes.io/instance: {{ .Release.Name }}
+        backstage.io/kubernetes-id: {{ .Release.Name }}
 
     spec:
       containers:
