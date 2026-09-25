@@ -9,7 +9,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/YOUR-USER/YOUR-REPO.git
+    repoURL: https://github.com/rahatdevops/idp-lab-gitops.git
     targetRevision: main
     path: apps/demo-app
 
