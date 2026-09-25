@@ -12,6 +12,8 @@ spec:
     repoURL: https://github.com/rahatdevops/idp-lab-gitops.git
     targetRevision: main
     path: apps/demo-app
+    directory:
+      exclude: 'catalog-info.yaml'
 
   destination:
     server: https://kubernetes.default.svc
