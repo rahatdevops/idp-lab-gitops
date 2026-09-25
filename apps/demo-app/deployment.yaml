@@ -11,7 +11,7 @@ spec:
   selector:
     matchLabels:
       app: demo-app
-
+      backstage.io/kubernetes-id: demo-app
   template:
     metadata:
       labels:
