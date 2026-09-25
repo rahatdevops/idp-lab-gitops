@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-app
+  description: Demo application for the IDP lab
+  annotations:
+    backstage.io/kubernetes-id: demo-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
